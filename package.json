@@ -1,0 +1,31 @@
+{
+  "name": "@karatelabs/karate",
+  "version": "0.3.1",
+  "description": "NPM for Karate",
+  "homepage": "https://github.com/karatelabs/karate-npm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karatelabs/karate-npm.git"
+  },
+  "main": "karate.js",
+  "scripts": {
+    "test": "node ./services/test.js",
+    "preinstall": "node preinstall.js",
+    "dev": "node ./services/app.js"
+  },
+  "author": "Peter Thomas",
+  "license": "MIT",
+  "dependencies": {
+    "@codemirror/lang-javascript": "^6.1.7",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "@jbangdev/jbang": "^0.2.0",
+    "bootstrap": "^5.2.3",
+    "chai": "^4.3.7",
+    "codemirror": "^6.0.1",
+    "express": "^4.18.2",
+    "jquery": "^3.6.4",
+    "popper.js": "^1.16.1",
+    "vite-plugin-require": "^1.1.10",
+    "vue-codemirror": "^6.1.1"
+  }
+}
