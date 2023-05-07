@@ -10,7 +10,6 @@
   "main": "karate.js",
   "scripts": {
     "test": "node ./services/test.js",
-    "preinstall": "node preinstall.js",
     "dev": "node ./services/app.js"
   },
   "author": "Peter Thomas",
