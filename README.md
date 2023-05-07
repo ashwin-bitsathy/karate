@@ -34,7 +34,7 @@ npm run test karate/httpbin.feature
 Or to run all tests in a folder:
 
 ```
-npm run test karate
+npm run test
 ```
 
 ## Known Issues
